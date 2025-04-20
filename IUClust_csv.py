@@ -24,7 +24,7 @@ Input -
 - HDF5 file with IU pitch and intensity vectors, lengths, and 'good' IU flags
 
 Outputs - 
-- HDF5 file with clustering results, input vectors, latent space encoded vectors, and autoencoder training history
+- CSV file with clustering results
 - YAML metadata file with run information and parameters
 """
 import logging
