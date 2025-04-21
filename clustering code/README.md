@@ -1,7 +1,5 @@
 This folder contains Python code (`IUClust_csv.py`) for clustering Intonation Units (IUs) based on their acoustic features (pitch and intensity). It employs a pipeline involving an Autoencoder (AE) for dimensionality reduction and feature extraction, followed by a Gaussian Mixture Model (GMM) for clustering in the latent space.
 
-It also contains clustering results for 
-
 ## Overview
 
 The script processes IUs by:
