@@ -57,7 +57,7 @@ The script generates output files in a timestamped subdirectory within the speci
 ## Usage
 
 Run the script from the command line:
-python IUClust_csv.py [OPTIONS]
+`python IUClust_csv.py [OPTIONS]`   
 
 **Common Options:**
 
@@ -66,4 +66,4 @@ python IUClust_csv.py [OPTIONS]
 *   `--lengths <LENGTH_STR>`: How to split IUs by length. Use `deciles` (default) or a range like `0.5-1.0`.
 
 For a full list of options and their descriptions run:
-python IUClust_csv.py --help
+`python IUClust_csv.py --help`
