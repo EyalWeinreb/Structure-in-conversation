@@ -25,5 +25,5 @@ The files supplied are .csv format text files compressed in .zip format. They co
 *   `act`: The length-based clustering subset the IU belongs to (e.g., `decile_01`, `len_850ms-1230ms`).
 *   `hunk`: The specific processing group (same as `act` unless the cluster originates from a "leftovers" reclustering attempt, e.g., `decile_01_leftovers_1`).
 
-In addition, each .zip file contains a text file describing how the audio files referenced in the 'media' column were generated from the original source audio files. 
+In addition, each .zip file contains (where applicable) `audio_file_info.txt` describing how the audio file names referenced in the `media` column were generated from the original source audio files. 
 
