@@ -30,7 +30,7 @@ The script requires an HDF5 file (`--input-file`, default: `Input.h5`) containin
 *   A dataset named `ius` (readable as a Pandas DataFrame) which includes at minimum the following columns:
     *   `viu_t_len`: Length of the IU vector in seconds.
     *   `good`: Boolean flag indicating if the IU is suitable for processing.
-*   A dataset named `t_db_mst` (readable as a NumPy array) containing the time, intensity (dB), and pitch (median normalized semitone) vectors for each IU. Shape: `(number of IUs, number of points in the longest IU vector, 3)`.
+*   A dataset named `t_db_mst` (readable as a NumPy array) containing the time, intensity (dB), and pitch (speaker median normalized semitone) vectors for each IU. Shape: `(number of IUs, number of points in the longest IU vector, 3)`.
 An example input file with 500 entries is given as `example_input_format.h5`
 
 ## Output
